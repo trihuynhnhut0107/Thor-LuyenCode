@@ -1,9 +1,11 @@
 def RANGED(a, b, c, d):
-    if a >= c and b <= d:
+    if a >= c and b <= d and b >= a:
         return True
     elif a <= c and b <= d and c <= b:
         return True
     elif a <= c and b >= d and a <= d:
+        return True
+    elif a >= c and a <= d and d <= b:
         return True
     else:
         return False
