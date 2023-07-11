@@ -5,6 +5,11 @@
       "taskLabel": "task-VT01",
       "appliesTo": "VT01.py",
       "type": "launch"
+    },
+    {
+      "taskLabel": "task-Thor-LuyenCode",
+      "appliesTo": "/",
+      "type": "launch"
     }
   ]
 }
