@@ -1,0 +1,6 @@
+a, b, x, y = input().split()
+a = int(a)
+b = int(b)
+x = int(x)
+y = int(y)
+print(a * x + b * y)
