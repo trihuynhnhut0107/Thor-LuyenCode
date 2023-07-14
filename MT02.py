@@ -1,4 +1,4 @@
-m, n = input().split()
+m, n= input().split()
 m = int(m)
 n = int(n)
 x = [int(x) for x in input().split()]
