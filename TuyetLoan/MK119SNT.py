@@ -8,6 +8,8 @@ def Is_Prime(n):
             if n % i == 0:
                 return False
         return True
+
+
 def main():
     n = int(input())
     for i in range(0, n):
@@ -19,5 +21,7 @@ def main():
             if Is_Prime(j):
                 count += 1
         print(count)
+
+
 if __name__ == "__main__":
     main()

@@ -9,15 +9,19 @@ def RANGED(a, b, c, d):
         return True
     else:
         return False
+
+
 def main():
     a, b, c, d = input().split()
     a = int(a)
     b = int(b)
-    c = int(c) 
+    c = int(c)
     d = int(d)
     if RANGED(a, b, c, d):
         print("YES")
     else:
         print("NO")
+
+
 if __name__ == "__main__":
     main()

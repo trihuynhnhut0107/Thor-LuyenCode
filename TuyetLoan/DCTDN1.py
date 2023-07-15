@@ -8,6 +8,8 @@ def longest(nums):
             if nums[i] > nums[j]:
                 dp[i] = max(dp[i], dp[j] + 1)
     return max(dp)
+
+
 def main():
     n = int(input())
     arr = []
@@ -15,5 +17,7 @@ def main():
     for i in x:
         arr.append(i)
     print(longest(arr))
+
+
 if __name__ == "__main__":
     main()

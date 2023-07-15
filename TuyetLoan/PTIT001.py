@@ -1,2 +1,3 @@
 n = int(input())
-print('*' * n) for _ in range(n)
+for _ in range(n):
+    print('*' * n) 

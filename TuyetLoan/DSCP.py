@@ -1,8 +1,11 @@
 import math
+
+
 def KtSoChinhPhuong(n):
     if math.sqrt(n) % 1 != 0:
         return False
     return True
+
 
 def main():
     a, b = input().split()
@@ -14,6 +17,6 @@ def main():
             count += 1
     print(count)
 
+
 if __name__ == "__main__":
     main()
-

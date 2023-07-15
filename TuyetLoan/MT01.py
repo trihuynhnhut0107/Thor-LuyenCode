@@ -8,6 +8,6 @@ for i in x:
     arr.append(i)
 for i in range(0, m):
     for j in range(0 + count, n + count):
-        print(arr[i + j ], end = ' ')
+        print(arr[i + j], end=" ")
     count += n - 1
     print()

@@ -1,11 +1,14 @@
 import math
+
+
 def KtSoChinhPhuong(n):
     if math.sqrt(n) % 1 != 0:
         return False
     return True
 
+
 def main():
-    m,n = input().split()
+    m, n = input().split()
     m = int(m)
     n = int(n)
     arr = []
@@ -24,6 +27,8 @@ def main():
         arrArrange.append(i)
     arrArrange.sort()
     for i in arrArrange:
-        print(i, end = ' ')
+        print(i, end=" ")
+
+
 if __name__ == "__main__":
     main()

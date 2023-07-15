@@ -6,6 +6,8 @@ def SUM04(n):
         deno += i
         sum += 1 / deno
     return round(sum, 8)
+
+
 def main():
     case = int(input())
     for i in range(0, case):
@@ -16,5 +18,7 @@ def main():
             print("")
         else:
             print(SUM04(n))
+
+
 if __name__ == "__main__":
     main()

@@ -5,7 +5,7 @@ if n < 0:
 elif n == 0:
     print("NO")
 else:
-    for i in range (2, n - 1):
+    for i in range(2, n - 1):
         if n % i == 0:
             s += i
     if s == n:

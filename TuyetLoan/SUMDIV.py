@@ -4,11 +4,15 @@ def SUMDIV(n):
     for i in range(1, temp):
         if n % i == 0:
             sum += i
-    return (sum + n)
+    return sum + n
+
+
 def main():
     cases = int(input())
     for i in range(0, cases):
         n = int(input())
         print(SUMDIV(n))
+
+
 if __name__ == "__main__":
     main()

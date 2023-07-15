@@ -9,8 +9,12 @@ def KiemTraNguyenTo(n):
                 print("NO")
                 return
         print("YES")
+
+
 def main():
     n = int(input())
     KiemTraNguyenTo(n)
+
+
 if __name__ == "__main__":
     main()

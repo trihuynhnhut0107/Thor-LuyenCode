@@ -1,4 +1,4 @@
-m, n= input().split()
+m, n = input().split()
 m = int(m)
 n = int(n)
 x = [int(x) for x in input().split()]
@@ -11,7 +11,7 @@ for i in range(0, m):
     arr2D.append([])
     for j in range(0, n):
         arr2D[i].append(arr[i + j + count])
-        #print(arr[i + j ], end = ' ')
+        # print(arr[i + j ], end = ' ')
     count += n - 1
 sum = 0
 for i in range(0, m):

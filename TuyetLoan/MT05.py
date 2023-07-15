@@ -1,6 +1,7 @@
 def Swap(m, n):
     return n, m
-    
+
+
 def main():
     m, n, cot = input().split()
     m = int(m)
@@ -24,8 +25,9 @@ def main():
                 arr2D[i][cot], arr2D[j][cot] = Swap(arr2D[i][cot], arr2D[j][cot])
     for i in range(0, m):
         for j in range(0, n):
-            print(arr2D[i][j], end = ' ')
+            print(arr2D[i][j], end=" ")
         print()
+
+
 if __name__ == "__main__":
     main()
-

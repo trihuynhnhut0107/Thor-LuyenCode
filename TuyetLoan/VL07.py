@@ -5,8 +5,10 @@ def GT(n):
         t = t * i
         i += 1
     return t
+
+
 def main():
-    n, k = (input().split())
+    n, k = input().split()
     n = int(n)
     k = int(k)
     t1 = GT(n)
@@ -14,6 +16,7 @@ def main():
     t3 = GT(k)
     result = (int)(t1 / (t2 * t3))
     print(result)
+
+
 if __name__ == "__main__":
     main()
-    

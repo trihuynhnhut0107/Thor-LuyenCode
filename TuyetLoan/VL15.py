@@ -1,5 +1,6 @@
 import math
-a,b = (input().split())
+
+a, b = input().split()
 a = float(a)
 b = float(b)
 if a % 1 != 0 or b % 1 != 0:
@@ -12,7 +13,7 @@ else:
     elif a == 0:
         print(a)
     elif b == 1:
-        print (a)
+        print(a)
     else:
         tempA = abs(a)
         tempB = abs(b)
@@ -32,5 +33,4 @@ else:
             b = abs(b)
         a = int(a)
         b = int(b)
-        print (a, b)
-
+        print(a, b)

@@ -1,4 +1,5 @@
 import string
+
 x = input()
 words = x.split()
 count = 0

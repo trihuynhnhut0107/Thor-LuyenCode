@@ -2,7 +2,7 @@ from collections import defaultdict
 
 n = int(input())
 x = [int(x) for x in input().split()]
-arr  = []
+arr = []
 for i in x:
     arr.append(i)
 dic_arr = defaultdict(int)

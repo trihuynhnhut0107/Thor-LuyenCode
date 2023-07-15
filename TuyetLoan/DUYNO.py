@@ -1,4 +1,6 @@
 import string
+
+
 def DuyenNo(n):
     temp = n
     if temp < 10 and temp >= 0:
@@ -14,6 +16,8 @@ def DuyenNo(n):
             return True
         else:
             return False
+
+
 def main():
     data = []
     while True:
@@ -27,5 +31,7 @@ def main():
             print("YES")
         else:
             print("NO")
+
+
 if __name__ == "__main__":
     main()
